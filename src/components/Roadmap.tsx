@@ -66,9 +66,9 @@ const Roadmap = () => {
   ]
 
   const milestones = [
-    { target: '10K Holders', achieved: false, count: '25K+' },
-    { target: '$1M Market Cap', achieved: false, count: '$10M+' },
-    { target: '100K Twitter Followers', achieved: false, count: '150K+' },
+    { target: '10K Holders', achieved: false, count: 'Coming Soon' },
+    { target: '$1M Market Cap', achieved: false, count: 'Coming Soon' },
+    { target: '100K Twitter Followers', achieved: false, count: 'Coming Soon' },
     { target: 'Major Exchange Listing', achieved: false, count: 'Coming Soon' },
     { target: '1M Holders', achieved: false, count: 'Q3 2025' }
   ]
