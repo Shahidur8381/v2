@@ -1,4 +1,5 @@
 import './Socials.css';
+import dexLogo from '../images/dex.png';
 
 const socials = [
   {
@@ -16,7 +17,7 @@ const socials = [
   {
     name: 'Dexscreener',
     url: 'https://dexscreener.com/',
-    logo: '/src/images/dex.png',
+    logo: dexLogo,
     alt: 'Dexscreener Logo',
   },
 ];

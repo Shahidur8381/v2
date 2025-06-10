@@ -133,19 +133,7 @@ const Footer = () => {
                 </motion.li>
               ))}
             </ul>
-            <div className="contract-address">
-              <h5>Contract Address</h5>
-              <div className="address-box">
-                <code>0x123...abc</code>
-                <motion.button
-                  className="copy-btn"
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.9 }}
-                >
-                  Copy
-                </motion.button>
-              </div>
-            </div>
+            
           </div>
         </div>
 
