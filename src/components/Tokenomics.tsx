@@ -46,7 +46,7 @@ const Tokenomics = () => {
   // Only show total supply, token name, ticker, contract address
   const stats = [
     { label: 'Total Supply', value: '1,000,000,000', suffix: '$TRELON' },
-    { label: 'Total Supply (1B)', value: '1B', suffix: '$TRELON' },
+    // { label: 'Total Supply (1B)', value: '1B', suffix: '$TRELON' },
     { label: 'Token Name', value: 'TRELON legend', suffix: '' },
     { label: 'Ticker', value: '$TRELON', suffix: '' },
     { label: 'Contract Address', value: '0xYourContractAddressHere', suffix: '' }
