@@ -51,14 +51,15 @@ const Hero = () => {
           ))}
         </div>
       </motion.div>
-          <br /><br />
       <div className="hero-container">
+        
         <motion.div
           className="hero-content"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 50 }}
           transition={{ duration: 1, delay: 0.2 }}
         >
+          <br /><br />
           <motion.div 
             className="logo-container"
             style={{
