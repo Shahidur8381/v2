@@ -199,7 +199,7 @@ const Roadmap = () => {
         >
           <h3>Join the Battle Early</h3>
           <p>
-            Don't miss out on the epic journey! Get your $BEEF tokens now and 
+            Don't miss out on the epic journey! Get your $TRELON tokens now and 
             be part of the greatest meme battle in crypto history.
           </p>
           <div className="cta-buttons">
