@@ -1813,6 +1813,29 @@ body {
     display: block;
   }
 
+  .header-buy-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    min-width: 90px;
+    max-width: 120px;
+    width: auto;
+    margin-left: 0.5rem;
+  }
+
+  .header-logo img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ffd700;
+  }
+
+  .header-logo {
+    min-width: 0;
+    max-width: 100px;
+    overflow: visible;
+  }
+
   .hero {
     padding: 4rem 1.5rem 2rem;
   }

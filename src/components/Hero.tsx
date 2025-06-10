@@ -51,7 +51,7 @@ const Hero = () => {
           ))}
         </div>
       </motion.div>
-
+          <br /><br />
       <div className="hero-container">
         <motion.div
           className="hero-content"
