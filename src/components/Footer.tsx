@@ -43,8 +43,8 @@ const Footer = () => {
             >
               <img src={logo} alt="Beef Off" />
               <div className="footer-brand-text">
-                <h3>THE GREAT BEEF-OFF</h3>
-                <p>Trump vs Elon - The Ultimate Battle</p>
+                <h3>TRELON legend</h3>
+                {/* <p>Trump vs Elon - The Ultimate Battle</p> */}
               </div>
             </motion.div>
             <p className="footer-description">
