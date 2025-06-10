@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Twitter, MessageCircle, TrendingUp, Heart, Mail } from 'lucide-react'
+import { Twitter, MessageCircle, TrendingUp, Heart } from 'lucide-react'
 import logo from '../images/logo.jpg'
 
 const Footer = () => {
@@ -111,20 +111,7 @@ const Footer = () => {
             </div>
             <div className="newsletter">
               <h5>Stay Updated</h5>
-              <div className="newsletter-form">
-                <input 
-                  type="email" 
-                  placeholder="Enter your email"
-                  className="newsletter-input"
-                />
-                <motion.button
-                  className="newsletter-btn"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  <Mail size={16} />
-                </motion.button>
-              </div>
+              
             </div>
           </div>
 

@@ -8,6 +8,8 @@ import About from './components/About'
 import Tokenomics from './components/Tokenomics'
 import Roadmap from './components/Roadmap'
 import Gallery from './components/Gallery'
+
+import Socials from './components/Socials'
 import Footer from './components/Footer'
 
 function App() {
@@ -36,6 +38,7 @@ function App() {
       <Tokenomics />
       <Roadmap />
       <Gallery />
+      <Socials />
       <Footer />
     </div>
   )

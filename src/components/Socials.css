@@ -1,0 +1,74 @@
+.socials-section {
+  padding: 5rem 0 4rem 0;
+  background: rgba(0,0,0,0.7);
+  text-align: center;
+}
+
+.socials-title {
+  font-family: "Orbitron", monospace;
+  font-size: 2.2rem;
+  color: #ffd700;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+}
+
+.socials-links {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+  background: rgba(255,255,255,0.04);
+  border: 1.5px solid rgba(255,215,0,0.15);
+  border-radius: 18px;
+  padding: 1.2rem 1.5rem;
+  text-decoration: none;
+  color: #ffd700;
+  font-weight: 700;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 24px rgba(255,215,0,0.08);
+  transition: all 0.2s;
+}
+
+.social-link:hover {
+  background: rgba(255,215,0,0.08);
+  border-color: #ffd700;
+  color: #fff;
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 8px 32px rgba(255,215,0,0.18);
+}
+
+.social-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 8px #ffd70044);
+  background: #fff;
+  border-radius: 50%;
+  padding: 8px;
+  margin-bottom: 0.2rem;
+}
+
+@media (max-width: 600px) {
+  .socials-links {
+    gap: 1.2rem;
+  }
+  .social-link {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+  }
+  .social-logo {
+    width: 38px;
+    height: 38px;
+    padding: 5px;
+  }
+  .socials-title {
+    font-size: 1.4rem;
+  }
+}
