@@ -7,9 +7,9 @@ const Roadmap = () => {
       phase: 'Phase 1',
       title: 'Battle Initiation',
       period: 'Q1 2025',
-      status: 'completed',
+      status: 'active', // changed from completed to active
       icon: Rocket,
-      color: '#4CAF50',
+      color: '#ffd700',
       items: [
         'Token Launch & Fair Distribution',
         'Liquidity Pool Creation',
@@ -66,9 +66,9 @@ const Roadmap = () => {
   ]
 
   const milestones = [
-    { target: '10K Holders', achieved: true, count: '25K+' },
-    { target: '$1M Market Cap', achieved: true, count: '$10M+' },
-    { target: '100K Twitter Followers', achieved: true, count: '150K+' },
+    { target: '10K Holders', achieved: false, count: '25K+' },
+    { target: '$1M Market Cap', achieved: false, count: '$10M+' },
+    { target: '100K Twitter Followers', achieved: false, count: '150K+' },
     { target: 'Major Exchange Listing', achieved: false, count: 'Coming Soon' },
     { target: '1M Holders', achieved: false, count: 'Q3 2025' }
   ]
@@ -113,11 +113,7 @@ const Roadmap = () => {
                 whileHover={{ scale: 1.05, y: -5 }}
               >
                 <div className="milestone-icon">
-                  {milestone.achieved ? (
-                    <CheckCircle size={24} color="#4CAF50" />
-                  ) : (
-                    <Clock size={24} color="#ffd700" />
-                  )}
+                  <Clock size={24} color="#ffd700" />
                 </div>
                 <h4>{milestone.target}</h4>
                 <p className="milestone-count">{milestone.count}</p>
@@ -213,8 +209,9 @@ const Roadmap = () => {
               whileTap={{ scale: 0.95 }}
             >
               <Rocket className="btn-icon" />
-              Buy $BEEF Now
+              Buy $TRELON Now
             </motion.button>
+            <a href="https://t.me/trelononsolportal" target='blank'>
             <motion.button
               className="cta-secondary"
               whileHover={{ scale: 1.05 }}
@@ -222,6 +219,7 @@ const Roadmap = () => {
             >
               Join Community
             </motion.button>
+            </a>
           </div>
         </motion.div>
       </div>

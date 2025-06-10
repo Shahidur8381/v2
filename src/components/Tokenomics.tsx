@@ -40,34 +40,15 @@ const Tokenomics = () => {
     }
   ]
 
-  const features = [
-    {
-      title: 'Zero Tax on Transfers',
-      description: 'No fees when sending to friends',
-      icon: '🚀'
-    },
-    {
-      title: 'Anti-Whale Protection',
-      description: 'Max 2% of supply per wallet',
-      icon: '🐋'
-    },
-    {
-      title: 'Auto-Burn Mechanism',
-      description: '1% of trades burned forever',
-      icon: '🔥'
-    },
-    {
-      title: 'LP Locked Forever',
-      description: 'Rugpull impossible',
-      icon: '🔒'
-    }
-  ]
+  // No extra features, only liquidity locked is shown above
+  // No extra features to show
 
+  // Only show total supply, token name, ticker, contract address
   const stats = [
-    { label: 'Total Supply', value: '1,000,000,000', suffix: 'BEEF' },
-    { label: 'Circulating Supply', value: '300,000,000', suffix: 'BEEF' },
-    { label: 'Burned Tokens', value: '50,000,000', suffix: 'BEEF' },
-    { label: 'Holders', value: '25,000+', suffix: '' }
+    { label: 'Total Supply', value: '1,000,000,000', suffix: '$TRELON' },
+    { label: 'Token Name', value: 'TRELON legend', suffix: '' },
+    { label: 'Ticker', value: '$TRELON', suffix: '' },
+    { label: 'Contract Address', value: '0xYourContractAddressHere', suffix: '' }
   ]
 
   return (
@@ -198,29 +179,7 @@ const Tokenomics = () => {
         </motion.div>
 
         {/* Features Grid */}
-        <motion.div
-          className="features-grid"
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          viewport={{ once: true }}
-        >
-          {features.map((feature, index) => (
-            <motion.div
-              key={feature.title}
-              className="feature-card"
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              viewport={{ once: true }}
-              whileHover={{ scale: 1.05, y: -10 }}
-            >
-              <div className="feature-emoji">{feature.icon}</div>
-              <h4>{feature.title}</h4>
-              <p>{feature.description}</p>
-            </motion.div>
-          ))}
-        </motion.div>
+        {/* No extra features to show */}
       </div>
     </section>
   )

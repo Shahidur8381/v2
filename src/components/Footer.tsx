@@ -51,20 +51,7 @@ const Footer = () => {
               Join the most epic meme battle in crypto history. Choose your side, 
               hodl tight, and may the best meme win! 🚀
             </p>
-            <div className="footer-stats">
-              <div className="stat">
-                <span className="stat-number">1M+</span>
-                <span className="stat-label">Holders</span>
-              </div>
-              <div className="stat">
-                <span className="stat-number">$10M+</span>
-                <span className="stat-label">Market Cap</span>
-              </div>
-              <div className="stat">
-                <span className="stat-number">24/7</span>
-                <span className="stat-label">Trading</span>
-              </div>
-            </div>
+            {/* Footer stats removed as requested */}
           </div>
 
           {/* Quick Links */}

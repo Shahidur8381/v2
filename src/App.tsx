@@ -2,13 +2,13 @@ import { useEffect } from 'react'
 import './App.css'
 
 // Components
+
 import Header from './components/Header'
 import Hero from './components/Hero'
 import About from './components/About'
 import Tokenomics from './components/Tokenomics'
 import Roadmap from './components/Roadmap'
 import Gallery from './components/Gallery'
-
 import Socials from './components/Socials'
 import Footer from './components/Footer'
 

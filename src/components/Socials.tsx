@@ -4,13 +4,13 @@ import dexLogo from '../images/dex.png';
 const socials = [
   {
     name: 'Telegram',
-    url: 'https://t.me/yourchannel',
+    url: 'https://t.me/trelononsolportal',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg',
     alt: 'Telegram Logo',
   },
   {
     name: 'X.com',
-    url: 'https://x.com/yourprofile',
+    url: 'https://x.com/trelononsol',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg',
     alt: 'X.com Logo',
   },

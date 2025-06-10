@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Menu, X, Twitter, MessageCircle, TrendingUp } from 'lucide-react'
+import { Menu, X ,MessageCircle, TrendingUp } from 'lucide-react'
 import logo from '../images/logo.jpg'
 
 const Header = () => {
@@ -9,15 +9,29 @@ const Header = () => {
   const navItems = [
     { label: 'Home', href: '#home' },
     { label: 'About', href: '#about' },
-    { label: 'Tokenomics', href: '#tokenomics' },
     { label: 'Roadmap', href: '#roadmap' },
     { label: 'Gallery', href: '#gallery' }
   ]
 
   const socialLinks = [
-    { icon: Twitter, url: '#', color: '#1DA1F2' },
-    { icon: MessageCircle, url: '#', color: '#0088cc' },
-    { icon: TrendingUp, url: '#', color: '#00D4AA' }
+    {
+      name: 'Telegram',
+      icon: MessageCircle,
+      url: 'https://t.me/trelononsolportal',
+      color: '#0088cc'
+    },
+    {
+      name: 'X.com',
+      icon: X,
+      url: 'https://x.com/trelononsol',
+      color: '#1DA1F2'
+    },
+    {
+      name: 'Dexscreener',
+      icon: TrendingUp,
+      url: 'https://dexscreener.com/',
+      color: '#00D4AA'
+    }
   ]
 
   return (    <motion.header
@@ -32,8 +46,8 @@ const Header = () => {
           whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 300 }}
         >
-          <img src={logo} alt="Beef Off Logo" />
-          <span>BEEF-OFF</span>
+          <img src={logo} alt="TRELON Legend Logo" />
+          <span>TRELON legend</span>
         </motion.div>
 
         {/* Desktop Navigation */}
@@ -64,6 +78,8 @@ const Header = () => {
               style={{ '--social-color': social.color } as React.CSSProperties}
               whileHover={{ scale: 1.2, y: -2 }}
               whileTap={{ scale: 0.9 }}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <social.icon size={20} />
             </motion.a>
@@ -122,6 +138,8 @@ const Header = () => {
                 href={social.url}
                 className="mobile-social-link"
                 style={{ '--social-color': social.color } as React.CSSProperties}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <social.icon size={20} />
               </motion.a>

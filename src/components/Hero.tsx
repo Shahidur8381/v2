@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { Rocket, Zap, Crown } from 'lucide-react'
+import { Rocket, Crown } from 'lucide-react'
 import img1 from '../images/img1.jpg'
 import img2 from '../images/img2.jpg'
 import logo from '../images/logo.jpg'
@@ -81,11 +81,11 @@ const Hero = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            <span className="gradient-text">THE GREAT</span>
+            <span className="gradient-text">TRELON</span>
             <br />
-            <span className="beef-text">BEEF-OFF</span>
+            <span className="beef-text">legend</span>
             <br />
-            <span className="vs-text">TRUMP vs ELON</span>
+            <span className="vs-text">$TRELON</span>
           </motion.h1>
 
           <motion.p
@@ -108,7 +108,7 @@ const Hero = () => {
               whileTap={{ scale: 0.95 }}
             >
               <Rocket className="button-icon" />
-              BUY $BEEF NOW
+              BUY $TRELON NOW
             </motion.button>
             
             {/* Contact Address */}
@@ -132,16 +132,7 @@ const Hero = () => {
                 transition={{ duration: 0.5, delay: 1.2 }}
               >
                 <Crown size={20} />
-                <span>25K+ Holders</span>
-              </motion.div>
-              <motion.div
-                className="stat-item"
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.5, delay: 1.3 }}
-              >
-                <Zap size={20} />
-                <span>$10M+ Market Cap</span>
+                <span>Total Supply: 1,000,000,000 $TRELON</span>
               </motion.div>
             </div>
           </motion.div>
