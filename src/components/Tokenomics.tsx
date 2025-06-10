@@ -80,7 +80,7 @@ const Tokenomics = () => {
           >
             <div className="modern-chart">
               <div className="chart-title-section">
-                <h3 className="chart-main-title">$BEEF Distribution</h3>
+                <h3 className="chart-main-title">$TRELON Distribution</h3>
                 <p className="chart-subtitle">Total Supply: 1B Tokens</p>
               </div>
               
