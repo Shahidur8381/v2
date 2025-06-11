@@ -47,7 +47,7 @@ const Header = () => {
           transition={{ type: "spring", stiffness: 300 }}
         >
           <img src={logo} alt="TRELON Legend Logo" />
-          <span>TRELON legend</span>
+          <span>TRELON</span>
         </motion.div>
 
         {/* Desktop Navigation */}

@@ -82,11 +82,13 @@ const Hero = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            <span className="gradient-text">TRELON</span>
+            <span className="gradient-text">TRUMP</span>
             <br />
-            <span className="beef-text">legend</span>
+            <span className="beef-text">VS</span>
             <br />
-            <span className="vs-text">$TRELON</span>
+            <span className="gradient-text">ELON</span>
+            <br />
+            <span className="vs-text">$trelon</span>
           </motion.h1>
 
           <motion.p
@@ -109,7 +111,7 @@ const Hero = () => {
               whileTap={{ scale: 0.95 }}
             >
               <Rocket className="button-icon" />
-              BUY $TRELON NOW
+              BUY $trelon NOW
             </motion.button>
             
             {/* Contact Address */}
@@ -133,7 +135,7 @@ const Hero = () => {
                 transition={{ duration: 0.5, delay: 1.2 }}
               >
                 <Crown size={20} />
-                <span>Total Supply: 1,000,000,000 $TRELON</span>
+                <span>Total Supply: 1,000,000,000 $trelon</span>
               </motion.div>
             </div>
           </motion.div>

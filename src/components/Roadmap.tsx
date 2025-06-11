@@ -199,7 +199,7 @@ const Roadmap = () => {
         >
           <h3>Join the Battle Early</h3>
           <p>
-            Don't miss out on the epic journey! Get your $TRELON tokens now and 
+            Don't miss out on the epic journey! Get your $trelon tokens now and 
             be part of the greatest meme battle in crypto history.
           </p>
           <div className="cta-buttons">
@@ -209,7 +209,7 @@ const Roadmap = () => {
               whileTap={{ scale: 0.95 }}
             >
               <Rocket className="btn-icon" />
-              Buy $TRELON Now
+              Buy $trelon Now
             </motion.button>
             <a href="https://t.me/trelononsolportal" target='blank'>
             <motion.button
